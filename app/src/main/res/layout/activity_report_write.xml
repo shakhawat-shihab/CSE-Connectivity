@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportWriteActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Write Report"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:fontFamily="@font/chunk_five_regular"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="7dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Report by,"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/acme"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:textSize="17sp"
+                android:text="ID: "
+                android:id="@+id/report_write_id_user"
+                android:fontFamily="@font/delius"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:textSize="17sp"
+                android:text="Name: "
+                android:id="@+id/report_write_name_user"
+                android:fontFamily="@font/delius"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:textSize="17sp"
+                android:text="Mobile: "
+                android:id="@+id/report_write_mobile_user"
+                android:fontFamily="@font/delius"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <EditText
+                android:background="@drawable/border_style_1"
+                android:id="@+id/report_write_subject"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:hint="Report Subject"
+                android:paddingLeft="10dp"
+                android:fontFamily="@font/acme"
+                />
+            <EditText
+                android:background="@drawable/border_style_1"
+                android:id="@+id/report_write_description"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:inputType="textMultiLine"
+                android:hint="Description"
+                android:fontFamily="@font/delius"
+                />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/report_write_submit"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:textColor="#F8F4F4"
+            android:fontFamily="@font/acme"
+            android:background="@drawable/button_design"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

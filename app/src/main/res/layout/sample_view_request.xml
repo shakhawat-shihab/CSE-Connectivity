@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="@drawable/border_style_1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Name : "
+                android:textColor="#151515"
+                android:fontFamily="@font/acme"
+                />
+            <TextView
+                android:id="@+id/name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Md Rubel"
+                android:paddingLeft="10dp"
+                android:textColor="#151515"
+                android:fontFamily="@font/delius"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="ID : "
+                    android:textColor="#151515"
+                    android:fontFamily="@font/acme"
+                    />
+                <TextView
+                    android:id="@+id/id_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="CE17001"
+                    android:paddingLeft="3dp"
+                    android:textColor="#151515"
+                    android:fontFamily="@font/delius"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:paddingLeft="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Batch : "
+                    android:textColor="#151515"
+                    android:fontFamily="@font/acme"
+                    />
+                <TextView
+                    android:id="@+id/batch_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="13th batch"
+                    android:paddingLeft="3dp"
+                    android:textColor="#151515"
+                    android:fontFamily="@font/delius"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

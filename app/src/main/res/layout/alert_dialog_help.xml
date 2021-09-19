@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/support"
+                />
+            <TextView
+                android:id="@+id/custom_alert_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="13dp"
+                android:text="Help"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/custom_alert_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="Help"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/delius"
+            android:textColor="#151515"
+            />
+        <TextView
+            android:id="@+id/custom_alert_help_positive"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="Got it"
+            android:textSize="19sp"
+            android:fontFamily="@font/acme"
+            android:background="@drawable/border_style_2"
+            android:textColor="#ffff"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

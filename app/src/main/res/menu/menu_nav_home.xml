@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+            <group android:checkableBehavior="single"
+                >
+                <item
+                    android:id="@+id/nav_profile_id"
+                    android:title="Profile"
+                    android:icon="@drawable/profile_48"
+
+                    />
+                <item
+                    android:id="@+id/nav_log_out_id"
+                    android:title="Log out"
+                    android:icon="@drawable/logout_48"
+                    />
+
+            </group>
+    <item
+        android:title="Management">
+        <menu>
+            <group android:checkableBehavior="single"
+                >
+                <item
+                    android:id="@+id/nav_admin_id"
+                    android:title="Admin"
+                    android:icon="@drawable/admin_48"
+                    />
+                <item
+                    android:id="@+id/nav_moderator_id"
+                    android:title="Moderator"
+                    android:icon="@drawable/moderator_48"
+                    />
+                <item
+                    android:id="@+id/nav_report_id"
+                    android:title="Report"
+                    android:icon="@drawable/report_write_48"
+                    />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="Connectivity"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_share_id"
+                android:title="Share"
+                android:icon="@drawable/share_48"
+                />
+            <item
+                android:id="@+id/nav_about_id"
+                android:title="About"
+                android:icon="@drawable/about_48"
+                />
+        </menu>
+    </item>
+
+
+
+    <item
+        android:title="Extras"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_help_id"
+                android:title="Help"
+                android:icon="@drawable/help_48"
+                />
+            <item
+                android:id="@+id/nav_exit_id"
+                android:title="Exit"
+                android:icon="@drawable/exit_48"
+                />
+        </menu>
+    </item>
+
+</menu>

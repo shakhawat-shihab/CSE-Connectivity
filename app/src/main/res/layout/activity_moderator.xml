@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ModeratorActivity">
+    <Button
+        android:id="@+id/apply_moderator_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Apply For Moderator"
+        android:background="@drawable/button_design"
+        android:textColor="#F8F4F4"
+        android:textAllCaps="false"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/acme"
+        />
+    <Button
+        android:layout_marginTop="8dp"
+        android:id="@+id/check_moderator_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Check My status"
+        android:background="@drawable/button_design"
+        android:textColor="#F8F4F4"
+        android:textAllCaps="false"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/acme"
+        />
+    <Button
+        android:layout_marginTop="8dp"
+        android:id="@+id/enter_moderator_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Enter as Moderator"
+        android:background="@drawable/button_design"
+        android:textColor="#F8F4F4"
+        android:textAllCaps="false"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/acme"
+        />
+
+</LinearLayout>

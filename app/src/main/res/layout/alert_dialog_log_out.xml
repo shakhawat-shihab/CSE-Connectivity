@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/logout_48"
+                />
+            <TextView
+                android:id="@+id/out_alert_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Log Out"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/acme"
+                android:paddingRight="10dp"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/out_alert_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:text="Do you really want to log out?"
+            android:textSize="18sp"
+            android:fontFamily="@font/delius"
+            android:textColor="#151515"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+            <TextView
+                android:id="@+id/out_alert_neutral"
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:text="NO"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/acme"
+                android:background="@drawable/border_style_2"
+                android:textColor="#ffff"
+                />
+            <TextView
+                android:id="@+id/out_alert_positive"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:text="Yes"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/acme"
+                android:background="@drawable/border_style_2"
+                android:textColor="#ffff"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

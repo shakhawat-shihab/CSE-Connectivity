@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowReportActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Report Description"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/chunk_five_regular"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="7dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Report by,"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/acme"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:textSize="17sp"
+                android:text="ID: "
+                android:id="@+id/report_show_id_user"
+                android:fontFamily="@font/delius"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:textSize="17sp"
+                android:text="Name: "
+                android:id="@+id/report_show_name_user"
+                android:fontFamily="@font/delius"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:textSize="17sp"
+                android:text="Mobile: "
+                android:id="@+id/report_show_mobile_user"
+                android:fontFamily="@font/delius"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subject : dsafa fsdf sf sf sf sfadad daff sdf sdfd sdfwrwq "
+                android:textSize="19sp"
+                android:id="@+id/report_show_subject"
+                android:fontFamily="@font/acme"
+                android:textColor="#595252"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description : "
+                    android:textSize="18dp"
+                    android:fontFamily="@font/acme"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="fcs fsd sf s  cs fsd sf sf fcs fsd sf sf sff fcs fsd sf sf sf sf"
+                    android:textSize="18dp"
+                    android:id="@+id/report_show_description"
+                    android:fontFamily="@font/delius"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

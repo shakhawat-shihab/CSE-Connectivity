@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="165dp"
+    android:paddingLeft="10dp"
+    android:background="@drawable/header_background_mbstu"
+    android:padding="8dp">
+    <ImageView
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="75dp"
+        android:layout_height="80dp"
+        android:src="@drawable/mbstu"
+        />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Computer Science &amp; Engineering"
+        android:textColor="#E0D4D4"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/acme"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Mawlana Bhashani Science &amp; Technology University"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:layout_marginTop="3dp"
+        android:textColor="#E0D4D4"
+        android:fontFamily="@font/acme"
+        />
+
+
+</LinearLayout>

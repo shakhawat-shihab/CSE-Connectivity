@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+    <Spinner
+        android:id="@+id/search_by_spinner"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="10dp"
+        android:layout_height="55dp"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+    </Spinner>
+    <!--<TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/search_by_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Search By ID"
+        android:textColor="#222020"
+        android:textSize="18sp"
+        />-->
+    <SearchView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/search_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Select Search Option First"
+
+        >
+    </SearchView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_id_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

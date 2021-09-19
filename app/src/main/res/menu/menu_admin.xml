@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Account Requests"
+        android:id="@+id/menu_admin_moderator_request"
+        app:showAsAction="never"/>
+    <item
+        android:title="View Report"
+        android:id="@+id/menu_admin_report"
+        app:showAsAction="never"/>
+    <item
+        android:title="Delete Account"
+        android:id="@+id/menu_admin_delete"
+        app:showAsAction="never"/>
+
+</menu>

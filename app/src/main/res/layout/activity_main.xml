@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/lock_user"/>
+        <EditText
+            android:id="@+id/log_in_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Email"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border_style_1"
+            android:paddingLeft="5dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/acme"/>
+        <EditText
+            android:inputType="textPassword"
+            android:layout_marginTop="5dp"
+            android:id="@+id/log_in_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Password"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border_style_1"
+            android:paddingLeft="5dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/acme"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border_style_1"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2.4"
+                android:layout_height="50dp"
+                android:text="Enter Batch : "
+                android:textSize="18sp"
+                android:paddingTop="10dp"
+                android:paddingLeft="25dp"
+                android:fontFamily="@font/acme"
+                />
+            <Spinner
+                android:id="@+id/log_in_batch"
+                android:layout_width="0dp"
+                android:layout_weight="1.6"
+                android:layout_height="50dp"
+                android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+                >
+            </Spinner>
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/log_in_button"
+            android:layout_width="match_parent"
+            android:text="Log In"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="5dp"
+            android:textColor="#FAFAFA"
+            android:fontFamily="@font/acme"
+            android:textStyle="bold"
+            android:background="@drawable/button_design"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/sign_up_button"
+            android:layout_width="match_parent"
+            android:text="Sign Up"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="5dp"
+            android:background="@drawable/button_design"
+            android:textColor="#FAFAFA"
+            android:fontFamily="@font/acme"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="6"
+            android:layout_height="40dp">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:text="Forget password ? "
+                android:textSize="19sp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/delius"/>
+            <TextView
+                android:id="@+id/click_here_text"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="19sp"
+                android:text="@string/click_here"
+                android:fontFamily="@font/delius"
+                android:textColor="#1C1B1B"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

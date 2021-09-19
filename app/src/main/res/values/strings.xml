@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">CSE Connectivity</string>
+    <string name="click_here"> <u>Click here</u></string>
+    <string name="nav_open">NavigationDrawer</string>
+    <string name="nav_close">NavigationDrawer</string>
+    <string name="share_message"> Download The app from the link: https://drive.google.com/drive/folders/1KeWdA41dihAXMZFgC-TZpWVRWGtJfJZC?usp=sharing </string>
+    <string name="about_text">
+        <b>CSE Connectivity</b> is a Mobile application developed by <b>Md. Shakhawat Hossain</b> on the demonstration of <b>Md. Mezbahul Islam.</b>\n \n
+        \t In this application, at first, User have to sign up their information.
+        After that, If Admin or Moderator accept him/her as a verified user, then he/ she will receive a verification email for his account.
+        Then the User can do following things,
+    </string>
+    <string name="features_text">
+        <b>Log in</b> \n
+        <b>See all Student Info.</b> \n
+        <b>Searching Student by keys.</b> \n
+        <b>Write Report.</b>\n
+        <b>Apply for being Moderator.</b> \n
+    </string>
+
+    <string name="about_text_html">
+        <![CDATA[
+        <html>
+            <head>
+                <style>
+                    @font-face{
+                        font-family:personal;
+                        src:url("font/delius");
+                    }
+                </style>
+            </head>
+            <body style="text-align:justify; font-family:personal;">
+                 <b>CSE Connectivity</b> is a Mobile application developed by Md Shakhawat Hossain on the demonstration of Md. Mezbahul Islam.
+                    In this application, at first, Student have to sign up their information.
+                     After that, If Admin or Moderator accept him/her as a student, then he will receive a verification email for his account.
+                     Then the student can do this things,
+                     <ul>
+                       <li>Log in</li>
+                       <li>See all Student Info.</li>
+                       <li>Searching Student by Id, Name, Mobile etc.</li>
+                       <li>Write Report</li>
+                       <li>Apply for being Moderator</li>
+                     </ul>
+            </body>
+        </html>
+        ]]>
+    </string>
+    <string-array name="district_name">
+        <item>Dhaka</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Jamalpur</item>
+        <item>Kishoreganj</item>
+        <item>Madaripur</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Mymensingh</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Netrokona</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+        <item>Sherpur</item>
+        <item>Tangail</item>
+        <item>Bogura</item>
+        <item>Joypurhat</item>
+        <item>Naogaon</item>
+        <item>Natore</item>
+        <item>Nawabganj</item>
+        <item>Pabna</item>
+        <item>Rajshahi</item>
+        <item>Sirajganj</item>
+        <item>Dinajpur</item>
+        <item>Gaibandha</item>
+        <item>Kurigram</item>
+        <item>Lalmonirhat</item>
+        <item>Nilphamari</item>
+        <item>Panchagarh</item>
+        <item>Rangpur</item>
+        <item>Thakurgaon</item>
+        <item>Barguna</item>
+        <item>Barishal</item>
+        <item>Bhola</item>
+        <item>Jhalokati</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Bandarban</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chattogram</item>
+        <item>Cumilla</item>
+        <item>Coxs Bazar</item>
+        <item>Feni</item>
+        <item>Khagrachari</item>
+        <item>Lakshmipur</item>
+        <item>Noakhali</item>
+        <item>Rangamati</item>
+        <item>Habiganj</item>
+        <item>Maulvibazar</item>
+        <item>Sunamganj</item>
+        <item>Sylhet</item>
+        <item>Bagerhat</item>
+        <item>Chuadanga</item>
+        <item>Jashore</item>
+        <item>Jhenaidah</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Narail</item>
+        <item>Satkhira</item>
+        <item>Faridpur</item>
+        <item>Chapainawabganj</item>
+    </string-array>
+    <string-array name="blood_group">
+        <item>null</item>
+        <item>A+</item>
+        <item>O+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>O-</item>
+        <item>B-</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="batch_list">
+        <item>null</item>
+        <item>13th Batch</item>
+        <item>14th Batch</item>
+        <item>15th Batch</item>
+        <item>16th Batch</item>
+        <item>17th Batch</item>
+        <item>18th Batch</item>
+        <item>19th Batch</item>
+    </string-array>
+    <string-array name="search_option">
+        <item>Select Searching Key</item>
+        <item>Search By ID</item>
+        <item>Search By Blood Group</item>
+        <item>Search By Name</item>
+        <item>Search By Mobile No.</item>
+        <item>Search By Hometown</item>
+    </string-array>
+</resources>

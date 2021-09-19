@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".SignUpActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Fill the following form"
+            android:textSize="23sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/chunk_five_regular"
+            />
+        <EditText
+            android:id="@+id/data_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Id  (Ex: CE17001)"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border_style_1"
+            android:paddingLeft="5dp"
+            android:fontFamily="@font/acme"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:id="@+id/data_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Name"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border_style_1"
+            android:paddingLeft="5dp"
+            android:fontFamily="@font/acme"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:id="@+id/data_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Mobile Number     (017********)"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border_style_1"
+            android:paddingLeft="5dp"
+            android:fontFamily="@font/acme"
+            android:textSize="18sp"
+            />
+        <AutoCompleteTextView
+            android:id="@+id/data_hometown"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Home Town"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border_style_1"
+            android:paddingLeft="5dp"
+            android:fontFamily="@font/acme"
+            android:textSize="18sp"
+            />
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border_style_1"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2.4"
+                android:layout_height="50dp"
+                android:text="Enter Batch : "
+                android:textSize="17sp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="@font/acme"
+                />
+            <Spinner
+                android:id="@+id/data_batch"
+                android:layout_width="0dp"
+                android:layout_weight="1.6"
+                android:layout_height="50dp"
+                android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+                >
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:background="@drawable/border_style_1"
+            android:layout_marginBottom="5dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2.4"
+                android:layout_height="50dp"
+                android:text="Enter Blood Group :"
+                android:textSize="17sp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="@font/acme"
+                />
+            <Spinner
+                android:id="@+id/data_blood"
+                android:layout_width="0dp"
+                android:layout_weight="1.6"
+                android:layout_height="50dp"
+                android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+                >
+            </Spinner>
+        </LinearLayout>
+        <EditText
+            android:id="@+id/data_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Email"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border_style_1"
+            android:paddingLeft="5dp"
+            android:fontFamily="@font/acme"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:id="@+id/data_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Password"
+            android:layout_marginBottom="5dp"
+            android:inputType="textPassword"
+            android:background="@drawable/border_style_1"
+            android:paddingLeft="5dp"
+            android:fontFamily="@font/acme"
+            android:textSize="18sp"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/data_sign_up"
+            android:layout_width="match_parent"
+            android:text="Sign Up"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_design"
+            android:textColor="#FAFAFA"
+            android:fontFamily="@font/acme"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
